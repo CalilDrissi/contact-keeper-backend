@@ -11,9 +11,9 @@ app.use('/api/users', require('./routes/users'));
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/contacts', require('./routes/contacts'));
 
-
+// test route
 app.get('/', (req,res)=>{
-    res.send("this is sparta!!")
+    res.json({msg: "You just hit ContactKeeper Home route"})
 })
 
 
