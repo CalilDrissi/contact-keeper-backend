@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://mongoUser:Bing09@mongo-1.v7b70.mongodb.net/contactkeeper?retryWrites=true&w=majority",
+  "jwtSecret": "banana"
+}
